@@ -1,3 +1,41 @@
+/* Par défault */
+
 body{
-    background-color: ;
+
 }
+
+footer {
+    background-color: #2D2D2D;
+    color: white;
+}
+
+/* Classes */
+
+.imagedebut {
+    display: flex;
+    width: 100%;
+}
+
+/* ID */
+
+#section1 {
+
+}
+
+#section2 {
+    background-color: #C8CDF8;
+}
+
+#section3 {
+    background-color: #C8CDF8;
+}
+
+#section4 {
+    
+}
+
+#section5 {
+    
+}
+
+/* Grilles CSS */
