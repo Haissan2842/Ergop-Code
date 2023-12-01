@@ -1,12 +1,30 @@
 /* Par défault */
 
-body{
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
 
 }
 
 footer {
     background-color: #2D2D2D;
     color: white;
+    height: 700px;
 }
 
 /* Classes */
@@ -16,6 +34,9 @@ footer {
     width: 100%;
 }
 
+.border {
+}
+
 /* ID */
 
 #section1 {
@@ -23,7 +44,7 @@ footer {
 }
 
 #section2 {
-    background-color: #C8CDF8;
+    text-align: center;
 }
 
 #section3 {
@@ -31,7 +52,7 @@ footer {
 }
 
 #section4 {
-    
+    background-color: #C8CDF8;
 }
 
 #section5 {
@@ -39,3 +60,124 @@ footer {
 }
 
 /* Grilles CSS */
+
+.containersection3 {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px 15px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . Title-area Title-area . ."
+      ". Catégorie-1 Catégorie-2 Catégorie-3 Catégorie-4 ."
+      ". . . . . .";
+  }
+  
+  .Title-area {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      "Write-title-here Write-title-here Write-title-here"
+      ". . .";
+    grid-area: Title-area;
+  }
+  
+  .Write-title-here { grid-area: Write-title-here; }
+  
+  .Catégorie-1 { grid-area: Catégorie-1; }
+  
+  .Catégorie-2 { grid-area: Catégorie-2; }
+  
+  .Catégorie-3 { grid-area: Catégorie-3; }
+  
+  .Catégorie-4 { grid-area: Catégorie-4; }
+  
+
+/*---*/
+
+.footergrid {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . . ."
+      ". Texte . Images ."
+      ". Texte . Images ."
+      ". Texte . Images ."
+      ". . . . .";
+  }
+  
+  .Texte { grid-area: Texte; }
+  
+  .Images {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "X-logo . Instagram-logo"
+      "linkedin-logo . facebook-logo"
+      "Conactez-nous Conactez-nous Conactez-nous";
+    grid-area: Images;
+  }
+  
+  .X-logo { grid-area: X-logo; }
+  
+  .Instagram-logo { grid-area: Instagram-logo; }
+  
+  .linkedin-logo { grid-area: linkedin-logo; }
+  
+  .facebook-logo { grid-area: facebook-logo; }
+  
+  .Conactez-nous { grid-area: Conactez-nous; }
+
+
+
+
+/* Pour s'amuser*/
+
+  .circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: mon-animation;
+    animation-duration: 4s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  /* The animation code */
+  @keyframes mon-animation {
+    0% {
+      background-color: red;
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      background-color: yellow;
+      left: 200px;
+      top: 0px;
+    }
+    50% {
+      background-color: blue;
+      left: 200px;
+      top: 200px;
+    }
+    75% {
+      background-color: green;
+      left: 0px;
+      top: 200px;
+    }
+    100% {
+      background-color: red;
+      left: 0px;
+      top: 0px;
+    }
+  }
+  
