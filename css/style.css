@@ -134,8 +134,30 @@ footer {
   
   .Conactez-nous { grid-area: Conactez-nous; }
 
+/* Grille Article du mois*/
+
+.articledumoi {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". image-article image-article nom-article nom-article ."
+    ". image-article image-article description description ."
+    ". image-article image-article description description ."
+    ". image-article image-article lien lien .";
+}
+
+.image-article { grid-area: image-article; }
+
+.nom-article { grid-area: nom-article; }
+
+.description { grid-area: description; }
+
+.lien { grid-area: lien; }
 
 
+  
 
 /* Pour s'amuser*/
 
