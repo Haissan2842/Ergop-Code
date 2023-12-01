@@ -6,19 +6,19 @@ body, h1, h2, h3, p, ul, li {
 }
 
 h1 {
-    font-family: 
+    font-family: "Gill Sans MT"
 }
 
 h2 {
-
+    font-family: "Gill Sans MT"
 }
 
 h3 {
-
+    font-family: "Gill Sans MT"
 }
 
 p {
-
+    font-family: "Gill Sans MT"
 }
 
 footer {
@@ -36,6 +36,8 @@ footer {
 
 .border {
 }
+
+.img
 
 /* ID */
 
@@ -60,6 +62,8 @@ footer {
 }
 
 /* Grilles CSS */
+
+/*-- Grille des catégories --*/
 
 .containersection3 {  display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -95,7 +99,7 @@ footer {
   .Catégorie-4 { grid-area: Catégorie-4; }
   
 
-/*---*/
+/*-- Grille du footer --*/
 
 .footergrid {  display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -118,8 +122,8 @@ footer {
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "X-logo . Instagram-logo"
-      "linkedin-logo . facebook-logo"
+      "X-logo Instagram-logo ."
+      "linkedin-logo facebook-logo ."
       "Conactez-nous Conactez-nous Conactez-nous";
     grid-area: Images;
   }
