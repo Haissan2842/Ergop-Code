@@ -39,6 +39,11 @@ footer {
 
 .img
 
+.textoverlay1 {
+  position: absolute;
+  left: 20%;
+}
+
 /* ID */
 
 #section1 {
