@@ -152,14 +152,25 @@ footer {
     ". image-article image-article lien lien .";
 }
 
+
 .image-article { grid-area: image-article; }
+
+.textesuperpose {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white; /* Couleur du texte */
+  text-align: center;
+  font-size: 24px;
+}
 
 .nom-article { grid-area: nom-article; }
 
 .description { grid-area: description; }
 
 .lien { grid-area: lien; }
-
 
   
 
