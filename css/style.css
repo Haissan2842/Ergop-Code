@@ -241,6 +241,42 @@ footer {
 
 .lien { grid-area: lien; }
 
+/* Animations */
+
+/* Bump */
+
+.bump {
+  transition: transform 0.3s ease; /* Durée de l'animation et fonction de transition */
+}
+
+.bump:hover {
+  transform: translateY(-5px); /* Déplacement vers le haut au survol */
+}
+
+
+/* Souligement */
+
+.soulignement {
+  text-decoration: none;
+  position: relative;
+  color: #333; /* Couleur du texte par défaut */
+}
+
+.soulignement::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px; /* Épaisseur du soulignement */
+  bottom: 0;
+  left: 0;
+  background-color: black; /* Couleur du soulignement au survol */
+  transition: width 0.3s ease; /* Durée de l'animation et fonction de transition */
+}
+
+.soulignement:hover::before {
+  width: 100%;
+}
+
 
 
 /* Pour s'amuser*/
