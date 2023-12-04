@@ -6,19 +6,21 @@ body, h1, h2, h3, p, ul, li {
 }
 
 h1 {
-    font-family: "Gill Sans MT"
-}
+   font-size: 60px;
+   font-family: "Gill Sans Ultra Bold", sans-serif;
+  font-weight: bold;
+  }
 
 h2 {
-    font-family: "Gill Sans MT"
+    font-family: "Gill Sans MT";
 }
 
 h3 {
-    font-family: "Gill Sans MT"
+    font-family: "Gill Sans MT";
 }
 
 p {
-    font-family: "Gill Sans MT"
+    font-family: "Gill Sans MT";
 }
 
 footer {
@@ -37,7 +39,12 @@ footer {
 .border {
 }
 
-.img
+.slogan {
+  position: absolute;
+  color: white;
+  left: 15%;
+  top: 65%;
+}
 
 /* ID */
 
@@ -232,91 +239,7 @@ footer {
   grid-area: article2;
 }
 
-.prix2 { grid-area: prix2; }
-
-.article3 {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix3 prix3 prix3";
-  grid-area: article3;
-}
-
-.prix3 { grid-area: prix3; }
-
-.article4 {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix4 prix4 prix4";
-  grid-area: article4;
-}
-
-.prix4 { grid-area: prix4; }
-
-.article5 {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix5 prix5 prix5";
-  grid-area: article5;
-}
-
-.prix5 { grid-area: prix5; }
-
-.article6 {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix6 prix6 prix6";
-  grid-area: article6;
-}
-
-.prix6 { grid-area: prix6; }
-
-.article7 {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix7 prix7 prix7";
-  grid-area: article7;
-}
-
-.prix7 { grid-area: prix7; }
-
-.article8 {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix8 prix8 prix8";
-  grid-area: article8;
-}
-
-.prix8 { grid-area: prix8; }
+.lien { grid-area: lien; }
 
 
 
