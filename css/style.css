@@ -6,19 +6,21 @@ body, h1, h2, h3, p, ul, li {
 }
 
 h1 {
-    font-family: "Gill Sans MT"
-}
+   font-size: 60px;
+   font-family: "Gill Sans Ultra Bold", sans-serif;
+  font-weight: bold;
+  }
 
 h2 {
-    font-family: "Gill Sans MT"
+    font-family: "Gill Sans MT";
 }
 
 h3 {
-    font-family: "Gill Sans MT"
+    font-family: "Gill Sans MT";
 }
 
 p {
-    font-family: "Gill Sans MT"
+    font-family: "Gill Sans MT";
 }
 
 footer {
@@ -37,11 +39,11 @@ footer {
 .border {
 }
 
-.img
-
-.textoverlay1 {
+.slogan {
   position: absolute;
-  left: 20%;
+  color: white;
+  left: 15%;
+  top: 65%;
 }
 
 /* ID */
@@ -178,6 +180,42 @@ footer {
 .lien { grid-area: lien; }
 
   
+/* Animations */
+
+/* Soulignement */
+
+.soulignement {
+  text-decoration: none;
+  position: relative;
+  color: #333; /* Couleur du texte par défaut */
+}
+
+.soulignement::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px; /* Épaisseur du soulignement */
+  bottom: 0;
+  left: 0;
+  background-color: black; /* Couleur du soulignement au survol */
+  transition: width 0.3s ease; /* Durée de l'animation et fonction de transition */
+}
+
+.soulignement:hover::before {
+  width: 100%;
+}
+
+/* bump */
+
+.bump {
+  transition: transform 0.3s ease; /* Durée de l'animation et fonction de transition */
+}
+
+.bump:hover {
+  transform: translateY(-5px); /* Déplacement vers le haut au survol */
+}
+
+
 
 /* Pour s'amuser*/
 
