@@ -400,6 +400,21 @@ footer {
 
 .prix8 { grid-area: prix8; }
 
+.containercestquoiergop {
+  width: 50%;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-avec-bordure-interieure {
+  outline: 3px solid white;
+  outline-offset: -25px;
+}
+
 
 /* Animations */
 
@@ -436,50 +451,3 @@ footer {
 .soulignement:hover::before {
   width: 100%;
 }
-
-
-
-/* Pour s'amuser*/
-
-  .circle {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    position: relative;
-    background-color: red;
-    animation-name: mon-animation;
-    animation-duration: 4s;
-    animation-delay: 0;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-  }
-
-  /* The animation code */
-  @keyframes mon-animation {
-    0% {
-      background-color: red;
-      left: 0px;
-      top: 0px;
-    }
-    25% {
-      background-color: yellow;
-      left: 200px;
-      top: 0px;
-    }
-    50% {
-      background-color: blue;
-      left: 200px;
-      top: 200px;
-    }
-    75% {
-      background-color: green;
-      left: 0px;
-      top: 200px;
-    }
-    100% {
-      background-color: red;
-      left: 0px;
-      top: 0px;
-    }
-  }
-  
