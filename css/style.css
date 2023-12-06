@@ -21,6 +21,12 @@ h3 {
 
 p {
     font-family: "Gill Sans MT";
+    text-align: justify; 
+    text-align-last: left;
+}
+
+a {
+  color: inherit;
 }
 
 footer {
