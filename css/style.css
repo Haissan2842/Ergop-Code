@@ -170,7 +170,7 @@ footer {
 
 .texte-superpose {
   position: absolute;
-  top: 55%;
+  top: 60%;
   left: 30%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -181,7 +181,19 @@ footer {
 
 .nom-article {
   grid-area: nom-article;
+  display: flex;
+  flex-direction: column; /* Afficher les éléments en colonne */
+  justify-content: center;
 }
+
+.nom-article h1 {
+  font-size: 60px; /* Taille du grand titre */
+}
+
+.prix {
+  margin-left: auto; /* Déplace le prix à droite */
+}
+
 
 .description {
   grid-area: description;
@@ -193,7 +205,7 @@ footer {
 
 .rectangle-noir {
   background-color: black; /* Couleur du rectangle */
-  padding: 10px; /* Ajoutez un espace autour du texte */
+  padding: 20px; /* Ajoutez un espace autour du texte */
   display: inline-block;
   width: 100%;
 }
