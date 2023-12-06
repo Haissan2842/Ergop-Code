@@ -167,7 +167,7 @@ footer {
 
 .texte-superpose {
   position: absolute;
-  top: 90%;
+  top: 55%;
   left: 30%;
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -186,6 +186,17 @@ footer {
 
 .lien {
   grid-area: lien;
+}
+
+.rectangle-noir {
+  background-color: black; /* Couleur du rectangle */
+  padding: 10px; /* Ajoutez un espace autour du texte */
+  display: inline-block;
+  width: 100%;
+}
+
+.rectangle-noir h1 {
+  color: white; /* Couleur du texte à l'intérieur du rectangle */
 }
 
 /* Articles Populaires*/
