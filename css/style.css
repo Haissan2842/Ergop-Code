@@ -160,7 +160,6 @@ footer {
   grid-template-areas:
     ". image-article image-article nom-article nom-article ."
     ". image-article image-article description description ."
-    ". image-article image-article description description ."
     ". image-article image-article lien lien .";
 }
 
@@ -199,8 +198,9 @@ footer {
   width: 100%;
 }
 
-.rectangle-noir h1 {
+.rectangle-noir h2 {
   color: white; /* Couleur du texte à l'intérieur du rectangle */
+  text-align: center;
 }
 
 /* Articles Populaires*/
