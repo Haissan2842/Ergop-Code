@@ -21,6 +21,12 @@ h3 {
 
 p {
     font-family: "Gill Sans MT";
+    text-align: justify; 
+    text-align-last: left;
+}
+
+a {
+  color: inherit;
 }
 
 footer {
@@ -48,6 +54,25 @@ footer {
 
 .imgchaises {
   box-shadow: ;
+}
+
+.ombre-orange {
+  box-shadow: -10px -10px 20px rgba(255, 165, 0, 0.8);
+}
+
+.containercestquoiergop {
+  width: 50%;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-avec-bordure-interieure {
+  outline: 3px solid white;
+  outline-offset: -25px;
 }
 
 /* ID */
@@ -81,6 +106,10 @@ footer {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 15px 15px;
     grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
     grid-template-areas:
       ". . Title-area Title-area . ."
       ". Catégorie-1 Catégorie-2 Catégorie-3 Catégorie-4 ."
@@ -92,6 +121,10 @@ footer {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
     grid-template-areas:
       ". . ."
       "Write-title-here Write-title-here Write-title-here"
@@ -117,6 +150,10 @@ footer {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
     grid-template-areas:
       ". . . . ."
       ". Texte . Images ."
@@ -132,6 +169,10 @@ footer {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;  
     grid-template-areas:
       "X-logo Instagram-logo ."
       "linkedin-logo facebook-logo ."
@@ -423,20 +464,7 @@ footer {
 
 .prix8 { grid-area: prix8; }
 
-.containercestquoiergop {
-  width: 50%;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  margin-right: auto;
-  margin-left: auto;
-}
 
-.img-avec-bordure-interieure {
-  outline: 3px solid white;
-  outline-offset: -25px;
-}
 
 
 /* Animations */
