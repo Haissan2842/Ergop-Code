@@ -1,4 +1,5 @@
 /* Par défault */
+/* Utiliser shopify le CMS */
 
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -292,8 +293,12 @@ footer {
 .articlepopulaire {  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
+  gap: 30px 10px;
   grid-auto-flow: row;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center; 
   grid-template-areas:
     ". titre titre titre titre ."
     ". article1 article2 article3 article4 ."
