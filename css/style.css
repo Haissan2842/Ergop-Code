@@ -523,20 +523,28 @@ footer {
 
 .pagearticle {
 display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-  "recherche recherche article article article ."
-  "recherche recherche article article article ."
-  "recherche recherche article article article ."
-  "recherche recherche article article article .";
+  "recherche recherche . article . article . article ."
+  "recherche recherche . article . article . article ."
+  "recherche recherche . article . article . article ."
+  "recherche recherche . article . article . article ."
+  "recherche recherche . article . article . article ."
+  "recherche recherche . article . article . article ."
+  "recherche recherche . article . article . article ."
+  "recherche recherche . article . article . article ."
+  "recherche recherche . article . article . article ."
+  "recherche recherche . article . article . article ."
+  "recherche recherche . article . article . article .";
 }
  
 .recherche {
   /*ici il faut mettre la page de recherche et les coches des différents articles */
-  grid-area: recherche               
+  grid-area: recherche;
+  background-color: #F5F5F5;           
 }
 
 .article {
@@ -545,19 +553,98 @@ display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-template-areas:
-  "article1 article2 article3"
-  "article4 article5 article6"
-  "article7 article8 article9"
-  "article10 article11 article12"
-  "article13 article14 article15"
-  "article16 article17 article18"
-  "article19 article20 article21"
-  "article22 article23 article24"
-  "article25 article26 article27"
-  "article19 article29 article30"
+  "article1 . article2 . article3"
+  "article4 . article5 . article6"
+  "article7 . article8 . article9"
+  "article10 . article11 . article12"
+  "article13 . article14 . article15"
+  "article16 . article17 . article18"
+  "article19 . article20 . article21"
+  "article22 . article23 . article24"
+  "article25 . article26 . article27"
+  "article28 . article29 . article30"
+  "article31 . article32 . ."
   grid-area: article;
 }
 
-.article {
-
+.pagearticle {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 16px 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "recherche recherche a1 article2 article3 ."
+    "recherche recherche article4 article5 article6 ."
+    "recherche recherche article7 article8 article9 ."
+    "recherche recherche article10 article11 article12 ."
+    "recherche recherche article13 article14 article15 ."
+    "recherche recherche article16 . . ."
+    "recherche recherche . . . ."
+    "recherche recherche . . . ."
+    "recherche recherche . . . .";
 }
+
+.recherche { grid-area: recherche; }
+
+
+.a2 { grid-area: a3; }
+
+.a3 { grid-area: a3; }
+
+.a4 { grid-area: a4; }
+
+.a5 { grid-area: a5; }
+
+.a6 { grid-area: a6; }
+
+.a7 { grid-area: a7; }
+
+.a8 { grid-area: a8; }
+
+.a9 { grid-area: a9; }
+
+.a10 { grid-area: a10; }
+
+.a11 { grid-area: a11; }
+
+.a12 { grid-area: a12; }
+
+.a13 { grid-area: a13; }
+
+.a14 { grid-area: a14; }
+
+.a15 { grid-area: a15; }
+
+.a16 { grid-area: a16; }
+
+.a17 { grid-area: a17; }
+
+.a18 { grid-area: a18; }
+
+.a19 { grid-area: a19; }
+
+.a20 { grid-area: a20; }
+
+.a21 { grid-area: a21; }
+
+.a22 { grid-area: a22; }
+
+.a23 { grid-area: a23; }
+
+.a24 { grid-area: a24; }
+
+.a25 { grid-area: a25; }
+
+.a26 { grid-area: a26; }
+
+.a27 { grid-area: a27; }
+
+.a28 { grid-area: a28; }
+
+.a29 { grid-area: a29; }
+
+.a30 { grid-area: a30; }
+
+.a31 { grid-area: a31; }
+
+.a32 { grid-area: a32; }
