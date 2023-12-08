@@ -97,6 +97,14 @@ footer {
     
 }
 
+#searchsession1 {
+
+}
+
+#searchsession2 {
+
+}
+
 /* Grilles CSS */
 
 /*-- Grille des catégories --*/
@@ -501,4 +509,50 @@ footer {
 
 .soulignement:hover::before {
   width: 100%;
+}
+
+
+
+
+/* PAGE SEARCH */
+
+.pagearticle {
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+  "recherche recherche article article article ."
+  "recherche recherche article article article ."
+  "recherche recherche article article article ."
+  "recherche recherche article article article .";
+}
+ 
+.recherche {
+  /*ici il faut mettre la page de recherche et les coches des différents articles */
+  grid-area: recherche               
+}
+
+.article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+  "article1 article2 article3"
+  "article4 article5 article6"
+  "article7 article8 article9"
+  "article10 article11 article12"
+  "article13 article14 article15"
+  "article16 article17 article18"
+  "article19 article20 article21"
+  "article22 article23 article24"
+  "article25 article26 article27"
+  "article19 article29 article30"
+  grid-area: article;
+}
+
+.article {
+
 }
