@@ -578,7 +578,7 @@ display: grid;
     "recherche recherche . . . ."
     "recherche recherche . . . .";
 }
-
+ 
 .recherche { grid-area: recherche; }
 
 
