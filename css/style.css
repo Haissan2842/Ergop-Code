@@ -608,7 +608,6 @@ footer {
 
 
 
-
 /* PAGE SEARCH */
 
  
@@ -618,4 +617,8 @@ footer {
   background-color: #F5F5F5;
 }
 
+/* PAGE ACHAT */
 
+.custom-section {
+  width: 50vw; /* 50% of the viewport width */
+}
