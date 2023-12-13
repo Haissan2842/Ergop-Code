@@ -71,6 +71,22 @@ footer {
   margin-left: auto;
 }
 
+.containerconfirmationachat {
+  width: 50%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 10%;
+  margin-left: 25%;
+}
+
+.containercontact {
+  width: 30%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: 35%;
+}
+
 .img-avec-bordure-interieure {
   outline: 3px solid white;
   outline-offset: -25px;
