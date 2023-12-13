@@ -291,7 +291,7 @@ footer {
   grid-area: nom-article-gauche;
   display: flex;
   flex-direction:column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: right; /* Ajustement : centré horizontalement */
 }
 
@@ -304,7 +304,9 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  justify-self: end;
   align-items: flex-end; /* Alignement du contenu à droite */
+  grid-area: 1 / 4 / 3 / 4;
 }
 
 .prix h2 {
@@ -811,7 +813,7 @@ footer {
   .d8 {
     justify-self: start
     align-self: stretch; 
-    grid-area: 3 / 1 / 4 / 2; 
+    grid-area: 3 / 1 / 4 / 2;
   }
   
   .p8 {
