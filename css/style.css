@@ -241,7 +241,7 @@ footer {
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    ". image-article image-article nom-article-gauche nom-article-droite ."
+    ". image-article image-article nom-article nom-article ."
     ". image-article image-article description description ."
     ". image-article image-article description description . "
     ". image-article image-article lien lien .";
@@ -268,23 +268,24 @@ footer {
 }
 
 .nom-article {
-  grid-area: nom-article-gauche;
+  grid-area: nom-article;
   display: flex;
-  flex-direction:column;
   justify-content: flex-end;
-  align-items: right; /* Ajustement : centré horizontalement */
+  align-items: right;
+  align-self: ;
 }
 
 .nom-article h1 {
-  font-size: 2em;
+  font-size: 50px;
 }
 
 .prix {
-  grid-area: nom-article-droite; 
+  grid-area: nom-article; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   justify-self: end;
+  align-self: ;
   align-items: flex-end; /* Alignement du contenu à droite */
   grid-area: 1 / 4 / 3 / 4;
 }
@@ -299,7 +300,7 @@ footer {
 .prix h1 {
   font-size: 24px;
   color: black;
-  opacity: 0.6; /* Opacité à 60% */
+  opacity: 1; /* Opacité à 60% */
 }
 
 .description {
