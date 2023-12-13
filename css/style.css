@@ -775,7 +775,7 @@ footer {
   .d8 {
     justify-self: start
     align-self: stretch; 
-    grid-area: 3 / 1 / 4 / 2; 
+    grid-area: 3 / 1 / 4 / 2;
   }
   
   .p8 {
