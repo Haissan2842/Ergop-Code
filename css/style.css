@@ -6,6 +6,9 @@ font-family: "gill-sans-nova", sans-serif;
 font-weight: 900;
 font-style: normal;
 
+font-family: "gimlet-sans-variable", sans-serif;
+font-variation-settings: "slnt" 0, "wght" 300, "opsz" 36;
+
 /* Utiliser shopify le CMS */
 
 body, h1, h2, h3, p, ul, li {
@@ -35,7 +38,7 @@ h3 {
 }
 
 p {
-    font-family: "Gill Sans MT";
+    font-family: "gimlet-sans-variable", sans-serif;
     text-align: justify; 
     text-align-last: left;
 }
@@ -288,7 +291,7 @@ footer {
 
 .texte-superpose {
   position: absolute;
-  top: 90%;
+  top: 85%;
   left: 35%;
   transform: translate(-50%, -50%);
   z-index: 1;
