@@ -60,7 +60,7 @@ p3 {
 
 
 a {
-  color: inherit ! important;
+  color: inherit;
 }
 
 footer {
@@ -610,10 +610,12 @@ footer {
 
 /* PAGE SEARCH */
 
- 
+
 .recherche {
   /*ici il faut mettre la page de recherche et les coches des différents articles */
+  grid-area: recherche;
   background-color: #F5F5F5;
+  padding-bottom: 80vh;  
 }
 
 /* PAGE ACHAT */
