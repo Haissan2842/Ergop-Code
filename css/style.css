@@ -622,7 +622,7 @@ footer {
   /*ici il faut mettre la page de recherche et les coches des différents articles */
   grid-area: recherche;
   background-color: #F5F5F5;
-  padding-bottom: 800vh;  
+  padding-bottom: 100vh;  
 }
 
 /* PAGE ACHAT */

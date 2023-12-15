@@ -131,31 +131,28 @@
 
     <div class="col-md-3 mb-4">
       <div class="card">
-        <img src="Images/Article du mois.jpg" class="card-img-top" alt="Image 3">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 2">
         <div class="card-body">
-          <h5 class="card-title">Carte 3</h5>
-          <p class="card-text">Description de la carte 3.</p>
+          <p class="card-text">Description de la carte 2.</p>
         </div>
       </div>
     </div>
 
     <div class="col-md-3 mb-4">
       <div class="card">
-        <img src="Images/Article du mois.jpg" class="card-img-top" alt="Image 4">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 3">
         <div class="card-body">
-          <h5 class="card-title">Carte 4</h5>
-          <p class="card-text">Description de la carte 4.</p>
+          <p class="card-text">Description de la carte 3.</p>
         </div>
       </div>
     </div>
   </div>
-<div class="row">
+  <div class="row">
     <!-- Deuxième rangée de cartes -->
     <div class="col-md-3 mb-4">
       <div class="card">
-        <img src="Images/Article du mois.jpg" class="card-img-top" alt="Image 5">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 5">
         <div class="card-body">
-          <h5 class="card-title">Carte 5</h5>
           <p class="card-text">Description de la carte 5.</p>
         </div>
       </div>
@@ -163,9 +160,8 @@
 
     <div class="col-md-3 mb-4">
       <div class="card">
-        <img src="Images/Article du mois.jpg" class="card-img-top" alt="Image 6">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 6">
         <div class="card-body">
-          <h5 class="card-title">Carte 6</h5>
           <p class="card-text">Description de la carte 6.</p>
         </div>
       </div>
@@ -173,19 +169,17 @@
 
     <div class="col-md-3 mb-4">
       <div class="card">
-        <img src="Images/Article du mois.jpg" class="card-img-top" alt="Image 7">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 7">
         <div class="card-body">
-          <h5 class="card-title">Carte 7</h5>
           <p class="card-text">Description de la carte 7.</p>
         </div>
       </div>
     </div>
 
     <div class="col-md-3 mb-4">
-      <div class="card">
-        <img src="Images/Article du mois.jpg" class="card-img-top" alt="Image 8">
+      <div class="card ">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 8">
         <div class="card-body">
-          <h5 class="card-title">Carte 8</h5>
           <p class="card-text">Description de la carte 8.</p>
         </div>
       </div>
