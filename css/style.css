@@ -23,6 +23,12 @@ h5 {
   font-style: normal;
 }
 
+h6 {
+  font-size: 30px;
+  font-family: "Gill Sans MT", sans-serif;
+  font-weight: bold;
+}
+
 h1 {
    font-size: 60px;
    font-family: "Gill Sans ", sans-serif;
@@ -52,10 +58,10 @@ p2 {
 
 p3 {
   font-family: "Gill Sans MT";
-  font-size: 24px;  
+  font-size: 20px;  
   text-decoration: line-through;
   color: red;
-  opacity: 0.6; /* Opacité à 60% */
+  opacity: 0.5; /* Opacité à 60% */
 }
 
 
@@ -187,8 +193,11 @@ footer {
 #searchsession2 {
 }
 
-#sectionachat {
+#sectionachat input {
+  border-radius: 0; /* Coins carrés */
+  border: 1px solid black; /* Bordure noire */
 }
+
 
 /* Grilles CSS */
 
@@ -343,7 +352,7 @@ footer {
 }
 
 .prix h2 {
-  font-size: 24px;  
+  font-size: 20px;  
   text-decoration: line-through;
   color: red;
   opacity: 0.6; /* Opacité à 60% */
@@ -632,7 +641,7 @@ footer {
   justify-content: space-between;
 }
 
-.card {
+.cardo {
   width: 18rem;
   border: 1px solid black;
   margin: 10px;
