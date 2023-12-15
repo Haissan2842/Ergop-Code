@@ -16,7 +16,7 @@
       <h2>Formlaire de contact :</h2>
       <br>
             <div>
-              <img src="Images/Rickrolling_QR_code.png" class="containercontact">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/Rickrolling_QR_code.png" class="containercontact">
             </div>
 </div>
 

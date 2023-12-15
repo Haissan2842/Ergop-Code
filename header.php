@@ -10,7 +10,7 @@
     <?php wp_head(); ?>
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid container" >
-          <a class="navbar-brand" href="index.php"> <img src="<?php echo get_template_directory_uri() ?>/Images/ERGOP - logo pc.png"> </a>
+          <a class="navbar-brand" href="<?php echo home_url() ?>"> <img src="<?php echo get_template_directory_uri() ?>/Images/ERGOP - logo pc.png"> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
