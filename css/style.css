@@ -87,14 +87,8 @@ footer {
   height: 100%;
 }
 
-.custom-card {
-  width: 100%; /* Définissez la largeur souhaitée ici */
-  max-width: 200px; /* Ajoutez une largeur maximale si nécessaire */
-}
-
-.custom-card img {
-  width: 100%;
-  height: auto;
+.customcard {
+  border-radius: 0%;
 }
 
 .slogan {
