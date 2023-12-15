@@ -89,7 +89,7 @@
             </p>
           </div>
             <div class="lien">
-              <a href="<?php echo get_template_directory_uri() ?>/article.php">
+              <a href="index.php/article">
                 <div class="rectangle-noir">
                   <h2>Je vais voir <img src="<?php echo get_template_directory_uri() ?>/Images/entrer.png" width="10%"></h2>
               </div>
@@ -123,11 +123,6 @@
           <div class="col-lg-3 col-md-6 col-6 mb-4">
             <div class="card border-0">
               <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 2">
-<<<<<<< HEAD
-=======
-              <img src="Images/articlemoment.png" class="card-img-top" alt="Image de la carte 2">
-=======
->>>>>>> fac99952b11e510521ce135796a5f65b26be1319
               <div class="card-body text-center">
           </div>
     

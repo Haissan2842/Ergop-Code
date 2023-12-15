@@ -621,7 +621,7 @@ footer {
   /*ici il faut mettre la page de recherche et les coches des différents articles */
   grid-area: recherche;
   background-color: #F5F5F5;
-  padding-bottom: 80vh;  
+  padding-bottom: 800vh;  
 }
 
 /* PAGE ACHAT */
@@ -654,3 +654,4 @@ footer {
   margin-left: auto; /* La barre sera centrée au milieu */
   margin-right: auto; /* La barre sera centrée au milieu */
 }
+

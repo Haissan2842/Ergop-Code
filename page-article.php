@@ -17,7 +17,7 @@
     </p>
   </div>
     <div class="lien">
-      <a href="achat.html">
+      <a href="achat/">
         <div class="rectangle-noir">
           <h2>Je vais voir <img src="Images/entrer.png" width="10%"></h2>
       </div>

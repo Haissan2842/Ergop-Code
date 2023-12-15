@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-md-4 sidebar">
           <div class="container mt-5 offset-md-3">
-            <h1>Adresse de facturation</h1>
+            <h2>Adresse de facturation</h2>
             <br>
             <div class="row mb-3">
               <div class="col-md-6">
@@ -46,11 +46,12 @@
             </div>
             <br><br>
             <h2>Différents Modes de Paiement</h2>
+            <br>
             <div class="mb-3">
-                <button class="btn-square btn btn-light btn-lg text-white" style="background-color: #71D177;" type="submit">Payer avec Bancontact</button>
+              <button class="btn-rectangle btn btn-lg text-white" style="background-color: #71D177; width: 100%;" type="submit">Payer avec Bancontact</button>
             </div>
             <div class="mb-3">
-              <button class="btn-square btn btn-primary btn-lg" type="submit">Payer avec Paypal</button>
+              <button class="btn-rectangle btn btn-lg text-white" style="background-color: #4C66E8; width: 100%;" type="submit">Payer avec Paypal</button>
             </div>
           </div>
           <br><br>    
