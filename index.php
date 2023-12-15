@@ -19,7 +19,7 @@
 
       <br><br><br><br>
       <div class="container mt-5">
-        <h1 class="text-center mb-4">Catégories</h1><br>
+        <h5 class="text-center mb-4">Catégories</h5><br>
       </div>
 
 
@@ -104,7 +104,7 @@
 
       <div class="container mt-5">
         <!-- Titre -->
-        <h1 class="text-center mb-4">Articles Populaires</h1><br>
+        <h5 class="text-center mb-4">Articles Populaires</h5><br>
 
     
         <!-- Première rangée de cartes -->
