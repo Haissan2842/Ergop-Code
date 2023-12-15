@@ -106,96 +106,92 @@
         <!-- Titre -->
         <h5 class="text-center mb-4">Articles Populaires</h5><br>
 
-    
-        <!-- Première rangée de cartes -->
-        <div class="row justify-content-center">
-          <!-- Carte 1 -->
-          <div class="col-lg-3 col-md-6 col-6 mb-4">
-            <div class="card border-0">
-              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 1">
-              <div class="card-body text-center">
-                <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
-              </div>
-            </div>
-          </div>
-    
-          <!-- Carte 2 -->
-          <div class="col-lg-3 col-md-6 col-6 mb-4">
-            <div class="card border-0">
-              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 2">
-<<<<<<< HEAD
-=======
-              <img src="Images/articlemoment.png" class="card-img-top" alt="Image de la carte 2">
-=======
->>>>>>> fac99952b11e510521ce135796a5f65b26be1319
-              <div class="card-body text-center">
-          </div>
-    
-          <!-- Carte 3 -->
-          <div class="col-lg-3 col-md-6 col-6 mb-4">
-            <div class="card border-0">
-              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 3">
-              <div class="card-body text-center">
-                <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
-              </div>
-            </div>
-          </div>
-    
-          <!-- Carte 4 -->
-          <div class="col-lg-3 col-md-6 col-6 mb-4">
-            <div class="card border-0">
-              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 4">
-              <div class="card-body text-center">
-                <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
-              </div>
-            </div>
-          </div>
-        </div>
-    
-        <!-- Deuxième rangée de cartes -->
-        <div class="row justify-content-center">
-          <!-- Carte 5 -->
-          <div class="col-lg-3 col-md-6 col-6 mb-4">
-            <div class="card border-0">
-              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 5">
-              <div class="card-body text-center">
-                <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
-              </div>
-            </div>
-          </div>
-    
-          <!-- Carte 6 -->
-          <div class="col-lg-3 col-md-6 col-6 mb-4">
-            <div class="card border-0">
-              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 6">
-              <div class="card-body text-center">
-                <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
-              </div>
-            </div>
-          </div>
-    
-          <!-- Carte 7 -->
-          <div class="col-lg-3 col-md-6 col-6 mb-4">
-            <div class="card border-0">
-              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 7">
-              <div class="card-body text-center">
-                <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
-              </div>
-            </div>
-          </div>
-    
-          <!-- Carte 8 -->
-          <div class="col-lg-3 col-md-6 col-6 mb-4">
-            <div class="card border-0"> 
-              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 8">
-              <div class="card-body text-center">
-                <p class="card-text ">Chaise de bureau Secret Lab <br> 349,99€</p>
-              </div>
-            </div>
-          </div>
+        <div class="container mt-4">
+  <div class="row">
+    <!-- Première rangée de cartes -->
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <img src="image1.jpg" class="card-img-top" alt="Image 1">
+        <div class="card-body">
+          <h5 class="card-title">Carte 1</h5>
+          <p class="card-text">Description de la carte 1.</p>
         </div>
       </div>
-    
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <img src="image2.jpg" class="card-img-top" alt="Image 2">
+        <div class="card-body">
+          <h5 class="card-title">Carte 2</h5>
+          <p class="card-text">Description de la carte 2.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <img src="Images/Article du mois.jpg" class="card-img-top" alt="Image 3">
+        <div class="card-body">
+          <h5 class="card-title">Carte 3</h5>
+          <p class="card-text">Description de la carte 3.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <img src="Images/Article du mois.jpg" class="card-img-top" alt="Image 4">
+        <div class="card-body">
+          <h5 class="card-title">Carte 4</h5>
+          <p class="card-text">Description de la carte 4.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="row">
+    <!-- Deuxième rangée de cartes -->
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <img src="Images/Article du mois.jpg" class="card-img-top" alt="Image 5">
+        <div class="card-body">
+          <h5 class="card-title">Carte 5</h5>
+          <p class="card-text">Description de la carte 5.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <img src="Images/Article du mois.jpg" class="card-img-top" alt="Image 6">
+        <div class="card-body">
+          <h5 class="card-title">Carte 6</h5>
+          <p class="card-text">Description de la carte 6.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <img src="Images/Article du mois.jpg" class="card-img-top" alt="Image 7">
+        <div class="card-body">
+          <h5 class="card-title">Carte 7</h5>
+          <p class="card-text">Description de la carte 7.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <img src="Images/Article du mois.jpg" class="card-img-top" alt="Image 8">
+        <div class="card-body">
+          <h5 class="card-title">Carte 8</h5>
+          <p class="card-text">Description de la carte 8.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     
 <br><br><br><br>
 
