@@ -1,48 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="Images/ERGOP - logp page.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://use.typekit.net/qlz7wwr.css">
-    <title>Ergop - Page d'Accueil</title>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-        <div class="container-fluid container" >
-          <a class="navbar-brand" href="index.html"> <img src="Images/ERGOP - logo pc.png"> </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link soulignement" href="search.html">Chaises</a>
-              </li>
-              <li class="nav-item soulignement">
-                <a class="nav-link" href="search.html">Meubles</a>
-              </li>
-              <li class="nav-item soulignement">
-                <a class="nav-link" href="search.html">Accessoires</a>
-              </li>
-              <li class="nav-item soulignement">
-                <a class="nav-link" href="search.html">Bureautique</a>
-              </li>
-            </ul>
-            <a href="search.html"><img src="Images/Icone search.png" class="bump"></a>
-            <h1>&nbsp;&nbsp;</h1>
-            <a href="compte_connection.html"><img src="Images/Icone compte.png" class="bump"></a>
-            <h1>&nbsp;&nbsp;</h1>
-            <a href="#"><img src="Images/Icone panier.png" class="bump"></a>
-          </div>
-        </div>
-      </nav>
+<?php get_header(); ?>
 
-</head>
+
 <body>
     <section id="section1">
-        <img src="Images/Section 1 Image.jpg" class="imagedebut">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Section 1 Image.jpg" class="imagedebut">
     </section>
     <section id="section2">
       <br><br><br><br><br><br>
@@ -65,25 +27,25 @@
         <div class="row">
           <div class="col-md-6 col-lg-3 mb-4">
             <div class="card">
-              <img src="Images/Catégorie-chaises.png" class="card-img-top customcard" alt="Image 1" style="box-shadow: -10px -10px rgba(209, 78, 0, 0.5)">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-chaises.png" class="card-img-top customcard" alt="Image 1" style="box-shadow: -10px -10px rgba(209, 78, 0, 0.5)">
             </div>
           </div>
       
           <div class="col-md-6 col-lg-3 mb-4">
             <div class="card">
-              <img src="Images/Catégorie-bureautique.png" class="card-img-top customcard" alt="Image 2" style="box-shadow: -10px -10px rgba(62, 47, 28, 0.5)">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-bureautique.png" class="card-img-top customcard" alt="Image 2" style="box-shadow: -10px -10px rgba(62, 47, 28, 0.5)">
             </div>
           </div>
       
           <div class="col-md-6 col-lg-3 mb-4">
             <div class="card">
-              <img src="Images/Catégorie-meubles.png" class="card-img-top customcard" alt="Image 3" style="box-shadow: -10px -10px rgba(42, 37, 201, 0.5)">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-meubles.png" class="card-img-top customcard" alt="Image 3" style="box-shadow: -10px -10px rgba(42, 37, 201, 0.5)">
             </div>
           </div>
       
           <div class="col-md-6 col-lg-3 mb-4">
             <div class="card">
-              <img src="Images/Catégorie-Accesoires.png" class="card-img-top customcard" alt="Image" 4 style="box-shadow: -10px -10px rgba(46, 127, 27, 0.5)">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-Accesoires.png" class="card-img-top customcard" alt="Image" 4 style="box-shadow: -10px -10px rgba(46, 127, 27, 0.5)">
             </div>
           </div>
         </div>
@@ -118,7 +80,7 @@
 
          <div class="articledumoi">
           <div class="image-article">
-            <img src="Images/Article du mois.jpg" width="90%">
+            <img src="<?php echo get_template_directory_uri(); ?>/Images/Article du mois.jpg" width="90%">
           </div>
           <div class="nom-article">
             <h1>Chaise de Bureau Gaming Secret Lab</h1>
@@ -132,9 +94,9 @@
             </p>
           </div>
             <div class="lien">
-              <a href="article.html">
+              <a href="<?php echo get_template_directory_uri() ?>/article.php">
                 <div class="rectangle-noir">
-                  <h2>Je vais voir <img src="Images/entrer.png" width="10%"></h2>
+                  <h2>Je vais voir <img src="<?php echo get_template_directory_uri() ?>/Images/entrer.png" width="10%"></h2>
               </div>
             </a>
           </div>
@@ -154,7 +116,7 @@
           <!-- Carte 1 -->
           <div class="col-lg-3 col-md-6 col-6 mb-4">
             <div class="card border-0">
-              <img src="Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 1">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 1">
               <div class="card-body text-center">
                 <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
               </div>
@@ -164,7 +126,7 @@
           <!-- Carte 2 -->
           <div class="col-lg-3 col-md-6 col-6 mb-4">
             <div class="card border-0">
-              <img src="Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 2">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 2">
               <div class="card-body text-center">
                 <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
               </div>
@@ -174,7 +136,7 @@
           <!-- Carte 3 -->
           <div class="col-lg-3 col-md-6 col-6 mb-4">
             <div class="card border-0">
-              <img src="Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 3">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 3">
               <div class="card-body text-center">
                 <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
               </div>
@@ -184,7 +146,7 @@
           <!-- Carte 4 -->
           <div class="col-lg-3 col-md-6 col-6 mb-4">
             <div class="card border-0">
-              <img src="Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 4">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 4">
               <div class="card-body text-center">
                 <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
               </div>
@@ -197,7 +159,7 @@
           <!-- Carte 5 -->
           <div class="col-lg-3 col-md-6 col-6 mb-4">
             <div class="card border-0">
-              <img src="Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 5">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 5">
               <div class="card-body text-center">
                 <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
               </div>
@@ -207,7 +169,7 @@
           <!-- Carte 6 -->
           <div class="col-lg-3 col-md-6 col-6 mb-4">
             <div class="card border-0">
-              <img src="Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 6">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 6">
               <div class="card-body text-center">
                 <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
               </div>
@@ -217,7 +179,7 @@
           <!-- Carte 7 -->
           <div class="col-lg-3 col-md-6 col-6 mb-4">
             <div class="card border-0">
-              <img src="Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 7">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 7">
               <div class="card-body text-center">
                 <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
               </div>
@@ -227,7 +189,7 @@
           <!-- Carte 8 -->
           <div class="col-lg-3 col-md-6 col-6 mb-4">
             <div class="card border-0"> 
-              <img src="Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 8">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 8">
               <div class="card-body text-center">
                 <p class="card-text ">Chaise de bureau Secret Lab <br> 349,99€</p>
               </div>
@@ -241,35 +203,4 @@
 
     </section>
 
-    <footer>
-      <div class="footergrid">
-        <div class="Texte">
-          <u><h2>Mentions Légales :</h2>
-            <br>
-            <br>
-            <a href="conditions_generales.html"><h4>Conditions Générales</h4></a>
-            <br>
-            <a href="vie_privee.html"><h4>Vie Privée</h4></a>
-            <br>
-            <a href="droit_de_retractation.html"><h4>Droit de Rétractation</h4></a>
-            <br>
-            <br>
-              <p>
-                Ergop SRL : <br>
-                Mail :</u> ergopsrl@info.be <br>
-                <u> BCE : </u> 0779618003 <br>
-                <u> Siège social :</u> Avenue Brugmann n°499 <br>
-                <u> TVA :</u> BE0779.618.001
-              </p> </div>
-        <div class="Images">
-          <div class="X-logo"> <img src="Images/Logo X.png" width="80%"> </div>
-          <div class="Instagram-logo"> <img src="Images/Logo instagram.png" width="80%"> </div>
-          <div class="linkedin-logo"> <img src="Images/logo linkedin.png" width="80%"> </div>
-          <div class="facebook-logo"> <img src="Images/Logo Facebook.png" width="80%"> </div>
-          <div class="Conactez-nous"> <a href="contact.html"><img src="Images/Contactez nous.png" width="80%"></a> </div>
-        </div>
-      </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-</body>
-</html>
+  <?php get_footer(); ?>
