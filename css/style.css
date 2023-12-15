@@ -60,7 +60,7 @@ p3 {
 
 
 a {
-  color: inherit;
+  color: inherit ! important;
 }
 
 footer {
