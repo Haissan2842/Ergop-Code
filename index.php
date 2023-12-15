@@ -4,14 +4,7 @@
 
 <body>
     <section id="section1">
-<<<<<<< HEAD:index.php
         <img src="<?php echo get_template_directory_uri() ?>/Images/Section 1 Image.jpg" class="imagedebut">
-=======
-        <img src="Images/happy friends.png" class="imagedebut">
-          <div class="slogan">
-             <h5>ERGONOMIC<br>SHOP<br>OPTIONS</h5>
-          </div>
->>>>>>> 3c4a4fb2b4fa78554dad0a35ad6d960ceb10c049:index.html
     </section>
     <section id="section2">
       <br><br><br><br><br><br>
@@ -34,41 +27,25 @@
         <div class="row">
           <div class="col-md-6 col-lg-3 mb-4">
             <div class="card">
-<<<<<<< HEAD:index.php
               <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-chaises.png" class="card-img-top customcard" alt="Image 1" style="box-shadow: -10px -10px rgba(209, 78, 0, 0.5)">
-=======
-              <img src="Images/Catégorie-chaises.png" class="card-img-top" alt="Image 1" style="box-shadow: -10px -10px rgba(209, 78, 0, 0.5)">
->>>>>>> 3c4a4fb2b4fa78554dad0a35ad6d960ceb10c049:index.html
             </div>
           </div>
       
           <div class="col-md-6 col-lg-3 mb-4">
             <div class="card">
-<<<<<<< HEAD:index.php
               <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-bureautique.png" class="card-img-top customcard" alt="Image 2" style="box-shadow: -10px -10px rgba(62, 47, 28, 0.5)">
-=======
-              <img src="Images/Catégorie-bureautique.png" class="card-img-top" alt="Image 2" style="box-shadow: -10px -10px rgba(62, 47, 28, 0.5)">
->>>>>>> 3c4a4fb2b4fa78554dad0a35ad6d960ceb10c049:index.html
             </div>
           </div>
       
           <div class="col-md-6 col-lg-3 mb-4">
             <div class="card">
-<<<<<<< HEAD:index.php
               <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-meubles.png" class="card-img-top customcard" alt="Image 3" style="box-shadow: -10px -10px rgba(42, 37, 201, 0.5)">
-=======
-              <img src="Images/Catégorie-meubles.png" class="card-img-top" alt="Image 3" style="box-shadow: -10px -10px rgba(42, 37, 201, 0.5)">
->>>>>>> 3c4a4fb2b4fa78554dad0a35ad6d960ceb10c049:index.html
             </div>
           </div>
       
           <div class="col-md-6 col-lg-3 mb-4">
             <div class="card">
-<<<<<<< HEAD:index.php
               <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-Accesoires.png" class="card-img-top customcard" alt="Image" 4 style="box-shadow: -10px -10px rgba(46, 127, 27, 0.5)">
-=======
-              <img src="Images/Catégorie-Accesoires.png" class="card-img-top" alt="Image" 4 style="box-shadow: -10px -10px rgba(46, 127, 27, 0.5)">
->>>>>>> 3c4a4fb2b4fa78554dad0a35ad6d960ceb10c049:index.html
             </div>
           </div>
         </div>
@@ -139,11 +116,7 @@
           <!-- Carte 1 -->
           <div class="col-lg-3 col-md-6 col-6 mb-4">
             <div class="card border-0">
-<<<<<<< HEAD:index.php
               <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 1">
-=======
-              <img src="Images/articlemoment.png" class="card-img-top" alt="Image de la carte 1">
->>>>>>> 3c4a4fb2b4fa78554dad0a35ad6d960ceb10c049:index.html
               <div class="card-body text-center">
                 <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
               </div>
@@ -157,11 +130,7 @@
               <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 2">
 =======
               <img src="Images/articlemoment.png" class="card-img-top" alt="Image de la carte 2">
->>>>>>> 3c4a4fb2b4fa78554dad0a35ad6d960ceb10c049:index.html
               <div class="card-body text-center">
-                <p class="card-text">Chaise de bureau Secret Lab <br> 349,99€</p>
-              </div>
-            </div>
           </div>
     
           <!-- Carte 3 -->
