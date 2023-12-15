@@ -19,7 +19,7 @@
 
       <br><br><br><br>
       <div class="container mt-5">
-        <h1 class="text-center mb-4">Catégories</h1><br>
+        <h5 class="text-center mb-4">Catégories</h5><br>
       </div>
 
 
@@ -104,7 +104,7 @@
 
       <div class="container mt-5">
         <!-- Titre -->
-        <h1 class="text-center mb-4">Articles Populaires</h1><br>
+        <h5 class="text-center mb-4">Articles Populaires</h5><br>
 
     
         <!-- Première rangée de cartes -->
@@ -123,6 +123,11 @@
           <div class="col-lg-3 col-md-6 col-6 mb-4">
             <div class="card border-0">
               <img src="<?php echo get_template_directory_uri() ?>/Images/articlemoment.png" class="card-img-top customcard" alt="Image de la carte 2">
+<<<<<<< HEAD
+=======
+              <img src="Images/articlemoment.png" class="card-img-top" alt="Image de la carte 2">
+=======
+>>>>>>> fac99952b11e510521ce135796a5f65b26be1319
               <div class="card-body text-center">
           </div>
     
