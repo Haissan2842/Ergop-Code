@@ -164,6 +164,66 @@ footer {
   padding-left: 10%;
 }
 
+/*TEST*/
+
+/* Conteneur de la boutique */
+#content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles pour la liste des produits */
+ul.products {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul.products li {
+  width: calc(33.333% - 20px);
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+ul.products li:hover {
+  transform: translateY(-5px);
+}
+
+/* Styles pour les titres de produits */
+h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Styles pour les images de produits */
+.woocommerce ul.products li a img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid #eee;
+}
+
+/* Styles pour les boutons d'ajout au panier */
+.woocommerce ul.products li a.button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.woocommerce ul.products li a.button:hover {
+  background-color: #45a049;
+}
+
 
 /* ID */
 
