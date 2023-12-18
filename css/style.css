@@ -113,6 +113,10 @@ footer {
   box-shadow: -10px -10px 20px rgba(255, 165, 0, 0.8);
 }
 
+.couleur_des_sections {
+  background-color: #C8CDF8;
+}
+
 .containercestquoiergop {
   width: 50%;
   padding-right: 20px;
@@ -716,11 +720,3 @@ h3 {
   margin-right: auto; /* La barre sera centrée au milieu */
 }
 
-.card-header {
-  float: left;
-}
-
-.card-title {
-  float:right;
-  text-align: right;
-}
