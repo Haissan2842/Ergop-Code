@@ -656,3 +656,11 @@ footer {
   margin-right: auto; /* La barre sera centrée au milieu */
 }
 
+.card-header {
+  float: left;
+}
+
+.card-title {
+  float:right;
+  text-align: right;
+}

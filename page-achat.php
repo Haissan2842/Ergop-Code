@@ -56,12 +56,60 @@
           </div>
           <br><br>    
         </div>
-          <div class="col-md-8">
+
+
+<!-- allright
+
+        <div class="col-md-8">
           <br><br>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
             </div>
             
+            <div class="col">
+              <div class="vosachat">
+                  <h1 class="title">Vos Achats</h1>
+                  <div class="barrevosachats"></div>
+                    <div class="container">
+                        <div class="card flex-row flex-wrap">
+                          <div class="card-header border-0">
+                            <img src="<?php echo get_template_directory_uri(); ?>/Images/Article du mois.jpg" alt="" width="5%">
+                          </div>
+                            <div class="card-block px-2">
+                              <h4 class="card-title">Chaise Bureau</h4>
+                              <div class="prix">
+                                <p3>749.99€</p3>
+                                <p2>649.99€</p2>
+                              </div>
+                            </div>
+                        </div>
+                          <div class="card flex-row flex-wrap">
+                          <div class="card-header border-0">
+                            <img src="//placehold.it/100" alt="">
+                          </div>
+                            <div class="card-block px-2">
+                              <h4 class="card-title">Chaise Bureau</h4>
+                              <div class="prix">
+                                <p3>749.99€</p3>
+                                <p2>649.99€</p2>
+                              </div>
+
+                          </div>
+                          
+
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </form>
+
+    <div class="col-md-8">
+          <br><br>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="vosachat w-75">
                   <h1 class="title">Vos Achats</h1>
@@ -82,20 +130,7 @@
                           </p>
                       </div>
                   </div>
-                      
-                  </div>
-                </div>
-              </div>
-            </div>
-          
-          </div>
-         </div>
-        </div>
-      </div>
-    </div>
-    </form>
-
-    
+                  -->
   </section>
 
 <?php get_footer(); ?>
