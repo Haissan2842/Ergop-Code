@@ -111,24 +111,12 @@
     <!-- Première rangée de cartes -->
     <div class="col-md-3 mb-4">
       <div class="card">
-        <img src="image1.jpg" class="card-img-top" alt="Image 1">
-        <div class="card-body">
-          <h5 class="card-title">Carte 1</h5>
+      <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 1">
+      <div class="card-body">
           <p class="card-text">Description de la carte 1.</p>
         </div>
       </div>
     </div>
-
-    <div class="col-md-3 mb-4">
-      <div class="card">
-        <img src="image2.jpg" class="card-img-top" alt="Image 2">
-        <div class="card-body">
-          <h5 class="card-title">Carte 2</h5>
-          <p class="card-text">Description de la carte 2.</p>
-        </div>
-      </div>
-    </div>
-
     <div class="col-md-3 mb-4">
       <div class="card">
         <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 2">
@@ -146,6 +134,14 @@
         </div>
       </div>
     </div>
+    <div class="col-md-3 mb-4">
+      <div class="card">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 4">
+        <div class="card-body">
+          <p class="card-text">Description de la carte 4.</p>
+        </div>
+      </div>
+    </div>    
   </div>
   <div class="row">
     <!-- Deuxième rangée de cartes -->
