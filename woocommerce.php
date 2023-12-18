@@ -1,8 +1,4 @@
-
 <?php
-/*
-Template Name: Boutique
-*/
 get_header();
 
 if (class_exists('WooCommerce')) {
@@ -10,4 +6,3 @@ if (class_exists('WooCommerce')) {
 }
 
 get_footer();
-?> 
