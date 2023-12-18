@@ -22,7 +22,6 @@
         <h5 class="text-center mb-4">Catégories</h5><br>
       </div>
 
-
       <div class="container mt-4">
         <div class="row">
           <div class="col-md-6 col-lg-3 mb-4">
