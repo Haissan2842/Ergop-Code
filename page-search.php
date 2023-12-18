@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 
+
   <section id="searchsession1">
     <img src="<?php echo get_template_directory_uri() ?>/Images/recherche.png" width="100%">
   </section>
