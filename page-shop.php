@@ -1,13 +1,13 @@
+    <?php
+    /*
+    Template Name: Boutique
+    */
+    get_header();
 
-<?php
-/*
-Template Name: Boutique
-*/
-get_header();
+    if (class_exists('WooCommerce')) {
+        woocommerce_content();
+    }
 
-if (class_exists('WooCommerce')) {
-    woocommerce_content();
-}
-
-get_footer();
-?> 
+    get_sidebar();
+    get_footer();
+    ?> 

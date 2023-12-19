@@ -93,18 +93,19 @@ footer {
   height: 100%;
 }
 
+.background_color_footer {
+  background-color: #2D2D2D;
+}
+
 .customcard {
   border-radius: 0%;
   border: none;
 }
 
-.slogan {
-  position: absolute;
-  color: white;
-  left: 15%;
-  top: 65%;
-}
 
+.color_white {
+  color: white;
+}
 .imgchaises {
   box-shadow: ;
 }
@@ -449,196 +450,7 @@ h3 {
   text-align: center;
 }
 
-/* Articles Populaires*/
-
-.articlepopulaire {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 30px 10px;
-  grid-auto-flow: row;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center; 
-  grid-template-areas:
-    ". titre titre titre titre ."
-    ". article1 article2 article3 article4 ."
-    ". article5 article6 article7 article8 .";
-}
-
-.titre {
-  justify-self: center;
-  align-self: center;
-  grid-area: titre;
-}
-
-.article1 {  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix1 prix1 prix1";
-  justify-self: stretch;
-  align-self: stretch;
-  grid-area: article1;
-}
-
-.prix1 {
-  justify-self: center;
-  align-self: center;
-  grid-area: prix1;
-}
-
-.article2 {  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix2 prix2 prix2";
-  grid-area: article2;
-}
-
-.prix2 {
-  justify-self: center;
-  align-self: center;
-  grid-area: prix2;
-}
-
-.article3 {  display: grid;
-  grid-template-columns:  1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix3 prix3 prix3";
-  grid-area: article3;
-}
-
-.prix3 {
-  justify-self: center;
-  align-self: center;
-  grid-area: prix3;
-}
-
-.article4 {  display: grid;
-  grid-template-columns:  1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix4 prix4 prix4";
-  grid-area: article4;
-}
-
-.prix4 {
-  justify-self: center;
-  align-self: center;
-  grid-area: prix4;
-}
-
-.article5 {  display: grid;
-  grid-template-columns:  1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix5 prix5 prix5";
-  grid-area: article5;
-}
-
-.prix5 {
-  justify-self: center;
-  align-self: center;
-  grid-area: prix5;
-}
-
-.article6 {  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows:  1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix6 prix6 prix6";
-  grid-area: article6;
-}
-
-.prix6 { grid-area: prix6; }
-
-.article7 {  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows:  1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix7 prix7 prix7";
-  grid-area: article7;
-}
-
-.prix7 { grid-area: prix7; }
-
-.article8 {  display: grid;
-  grid-template-columns:  1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row dense;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  grid-template-areas:
-    ". . ."
-    ". . ."
-    "prix8 prix8 prix8";
-  grid-area: article8;
-}
-
-.prix8 { grid-area: prix8; }
-
-
+/
 
 
 /* Animations */
@@ -677,6 +489,11 @@ h3 {
   width: 100%;
 }
 
+
+/* Animation Couleur Image */
+
+
+/* Animation Couleur Image Fin */
 
 
 /* PAGE SEARCH */
