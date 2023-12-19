@@ -8,11 +8,21 @@
     </section>
     <section id="section2">
       <br><br><br><br><br><br>
-      <div class="containercestquoiergop" style="border: black solid 2px;">
-         <h2>C'est quoi Ergop ?</h2>
-         <hr>
-           <p>Ergop est une start-up axée sur le bien-être, spécialisée dans la conception et la vente d'objets ergonomiques de haute qualité pour améliorer le confort quotidien. Notre catalogue comprend des chaises de bureau ergonomiques, des supports pour ordinateurs portables, et autres produits conçus en collaboration avec des experts en santé. En mettant l'accent sur l'innovation et la sensibilisation à l'importance de l'ergonomie, Ergop s'est rapidement imposée comme un acteur majeur sur le marché, offrant des solutions qui améliorent le bien-être de ses clients au travail et à la maison.</p>
+
+
+      <div class="container col-9 col-lg-7 text-center mt-5 ">
+        <div class="card card_cestquoiergop">
+            <br>
+              <h2><u>C'est quoi Ergop ?</u></h2>
+            <br>
+              <div class="col-9 col-lg-10">
+                <p>Ergop est une start-up axée sur le bien-être, spécialisée dans la conception et la vente d'objets ergonomiques de haute qualité pour améliorer le confort quotidien. Notre catalogue comprend des chaises de bureau ergonomiques, des supports pour ordinateurs portables, et autres produits conçus en collaboration avec des experts en santé. En mettant l'accent sur l'innovation et la sensibilisation à l'importance de l'ergonomie, Ergop s'est rapidement imposée comme un acteur majeur sur le marché, offrant des solutions qui améliorent le bien-être de ses clients au travail et à la maison.</p>
+              </div>
+              <br>
+        </div>
       </div>
+
+
       <br><br><br><br><br><br>
     </section>
     <section id="section3">
@@ -26,7 +36,7 @@
         <div class="row">
           <div class="col-6 col-lg-3 mb-4">
             <div class="card">
-              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-chaises.png" class="card-img-top customcard" alt="Image 1" style="box-shadow: -10px -10px rgba(209, 78, 0, 0.5)">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-chaises.png" class="card-img-top customcard " alt="Image 1" style="box-shadow: -10px -10px rgba(209, 78, 0, 0.5)">
             </div>
           </div>
       

@@ -33,7 +33,7 @@
             <h1>&nbsp;&nbsp;</h1>
             <a href="<?php echo home_url() ?>/index.php/compte_connection/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone compte.png" class="bump"></a>
             <h1>&nbsp;&nbsp;</h1>
-            <a href="#"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone panier.png" class="bump"></a>
+            <a href="<?php echo home_url() ?>/index.php/cart/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone panier.png" class="bump"></a>
           </div>
         </div>
       </nav>
