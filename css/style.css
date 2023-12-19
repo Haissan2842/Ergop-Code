@@ -16,6 +16,7 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
+
 h5 {
   font-size: 60px;
   font-family: "gill-sans-nova", sans-serif;
@@ -455,16 +456,41 @@ h3 {
 
 /* Animations */
 
-/* Bump */
+/* Zoom */
 
-.bump {
-  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+.zoom-box {
+  transition: transform 0.3s ease-in-out;
 }
 
-.bump:hover {
-  transform: translateY(-5px);
+.zoom-box:hover {
+  transform: scale(1.05)
 }
 
+/* Hop */
+
+
+.hop {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hop:hover {
+  transform: translateY(-5px)
+}
+
+/* Zop */
+
+    /* Style de base pour l'élément */
+    .zop {
+      display: inline-block;
+      overflow: hidden;
+      position: relative;
+      transition: transform 0.3s ease;
+    }
+
+    /* Effet de zoom au survol */
+    .zop:hover {
+      transform: scale(1.05); /* Ajustez la valeur selon vos préférences */
+    }
 
 /* Souligement */
 

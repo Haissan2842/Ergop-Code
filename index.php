@@ -36,25 +36,25 @@
         <div class="row">
           <div class="col-6 col-lg-3 mb-4">
             <div class="card">
-              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-chaises.png" class="card-img-top customcard " alt="Image 1" style="box-shadow: -10px -10px rgba(209, 78, 0, 0.5)">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-chaises.png" class="card-img-top customcard zop" alt="Image 1" style="box-shadow: -10px -10px rgba(209, 78, 0, 0.5)">
             </div>
           </div>
       
           <div class="col-6 col-lg-3 mb-4">
             <div class="card">
-              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-bureautique.png" class="card-img-top customcard" alt="Image 2" style="box-shadow: -10px -10px rgba(62, 47, 28, 0.5)">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-bureautique.png" class="card-img-top customcard zop" alt="Image 2" style="box-shadow: -10px -10px rgba(62, 47, 28, 0.5)">
             </div>
           </div>
       
           <div class="col-6 col-lg-3 mb-4">
             <div class="card">
-              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-meubles.png" class="card-img-top customcard" alt="Image 3" style="box-shadow: -10px -10px rgba(42, 37, 201, 0.5)">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-meubles.png" class="card-img-top customcard zop" alt="Image 3" style="box-shadow: -10px -10px rgba(42, 37, 201, 0.5)">
             </div>
           </div>
       
           <div class="col-6 col-lg-3 mb-4">
             <div class="card">
-              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-Accesoires.png" class="card-img-top customcard" alt="Image" 4 style="box-shadow: -10px -10px rgba(46, 127, 27, 0.5)">
+              <img src="<?php echo get_template_directory_uri() ?>/Images/Catégorie-Accesoires.png" class="card-img-top customcard zop" alt="Image" 4 style="box-shadow: -10px -10px rgba(46, 127, 27, 0.5)">
             </div>
           </div>
         </div>
@@ -99,34 +99,34 @@
   <div class="row">
     <!-- Première rangée de cartes -->
     <div class="col-6 col-lg-3 mb-4">
-      <div class="card">
-      <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 1">
+      <div class="card hop">
+      <img src="<?php echo get_template_directory_uri() ?>/Images/Image 20.jpg" class="card-img-top" alt="Image 1">
       <div class="card-body">
           <p class="card-text">Siège Bloon Original</p>
         </div>
       </div>
     </div>
     <div class="col-6 col-lg-3 mb-4">
-      <div class="card">
-        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 2">
+      <div class="card hop">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Image 17.jpg" class="card-img-top" alt="Image 2">
         <div class="card-body">
-          <p class="card-text">Description de la carte 2.</p>
+          <p class="card-text">Bureau informatique GRISO</p>
         </div>
       </div>
     </div>
 
     <div class="col-6 col-lg-3 mb-4">
-      <div class="card">
-        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 3">
+      <div class="card hop">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/lunette-gaming-proxima-horus-x-blanche.png" class="card-img-top" alt="Image 3">
         <div class="card-body">
-          <p class="card-text">Description de la carte 3.</p>
+          <p class="card-text">Support Pour Ordinateurs Portables R-Go Riser Flexible</p>
         </div>
       </div>
     </div>
     <div class="col-6 col-lg-3 mb-4">
-      <div class="card">
-        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 4">
-        <div class="card-body">
+      <div class="card hop">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/chaiseeerg.jpg" class="card-img-top" alt="Image 4">
+        <div class="card-body customcard">
           <p class="card-text">Description de la carte 4.</p>
         </div>
       </div>
@@ -135,8 +135,8 @@
   <div class="row">
     <!-- Deuxième rangée de cartes -->
     <div class="col-6 col-lg-3 mb-4">
-      <div class="card">
-        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 5">
+      <div class="card hop">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Image 25.png" class="card-img-top" alt="Image 5">
         <div class="card-body">
           <p class="card-text">Description de la carte 5.</p>
         </div>
@@ -144,8 +144,8 @@
     </div>
 
     <div class="col-6 col-lg-3 mb-4">
-      <div class="card">
-        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 6">
+      <div class="card hop">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Article populaire 1.png" class="card-img-top" alt="Image 6">
         <div class="card-body">
           <p class="card-text">Description de la carte 6.</p>
         </div>
@@ -153,8 +153,8 @@
     </div>
 
     <div class="col-6 col-lg-3 mb-4">
-      <div class="card">
-        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 7">
+      <div class="card hop">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Image 5.jpg" class="card-img-top" alt="Image 7">
         <div class="card-body">
           <p class="card-text">Description de la carte 7.</p>
         </div>
@@ -162,8 +162,8 @@
     </div>
 
     <div class="col-6 col-lg-3 mb-4">
-      <div class="card ">
-        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 8">
+      <div class="card hop">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg Image 21.png" class="card-img-top" alt="Image 8">
         <div class="card-body">
           <p class="card-text">Description de la carte 8.</p>
         </div>
