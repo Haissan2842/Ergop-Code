@@ -102,7 +102,7 @@
       <div class="card hop">
       <img src="<?php echo get_template_directory_uri() ?>/Images/Image 20.jpg" class="card-img-top" alt="Image 1">
       <div class="card-body">
-          <p class="card-text">Siège Bloon Original</p>
+          <p class="card-text">Bureau Assis Debout Électrique Q8 Avancé</p>
         </div>
       </div>
     </div>
@@ -119,7 +119,7 @@
       <div class="card hop">
         <img src="<?php echo get_template_directory_uri() ?>/Images/lunette-gaming-proxima-horus-x-blanche.png" class="card-img-top" alt="Image 3">
         <div class="card-body">
-          <p class="card-text">Support Pour Ordinateurs Portables R-Go Riser Flexible</p>
+          <p class="card-text">Lunettes Esport ProXima</p>
         </div>
       </div>
     </div>
@@ -127,7 +127,7 @@
       <div class="card hop">
         <img src="<?php echo get_template_directory_uri() ?>/Images/chaiseeerg.jpg" class="card-img-top" alt="Image 4">
         <div class="card-body customcard">
-          <p class="card-text">Description de la carte 4.</p>
+          <p class="card-text">Chaise de Bureau Fauteuil Ergonomique avec Repose-Pieds</p>
         </div>
       </div>
     </div>    
@@ -138,7 +138,7 @@
       <div class="card hop">
         <img src="<?php echo get_template_directory_uri() ?>/Images/Image 25.png" class="card-img-top" alt="Image 5">
         <div class="card-body">
-          <p class="card-text">Description de la carte 5.</p>
+          <p class="card-text">Gym Ball Résistant </p>
         </div>
       </div>
     </div>
@@ -147,7 +147,7 @@
       <div class="card hop">
         <img src="<?php echo get_template_directory_uri() ?>/Images/Article populaire 1.png" class="card-img-top" alt="Image 6">
         <div class="card-body">
-          <p class="card-text">Description de la carte 6.</p>
+          <p class="card-text">Support Pour Ordinateurs Portables R-Go Riser Flexible</p>
         </div>
       </div>
     </div>
@@ -156,16 +156,16 @@
       <div class="card hop">
         <img src="<?php echo get_template_directory_uri() ?>/Images/Image 5.jpg" class="card-img-top" alt="Image 7">
         <div class="card-body">
-          <p class="card-text">Description de la carte 7.</p>
+          <p class="card-text">Secretlab MAGNUS Pro</p>
         </div>
       </div>
     </div>
 
     <div class="col-6 col-lg-3 mb-4">
       <div class="card hop">
-        <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg Image 21.png" class="card-img-top" alt="Image 8">
+        <img src="<?php echo get_template_directory_uri() ?>/Images/Image 21.png" class="card-img-top" alt="Image 8">
         <div class="card-body">
-          <p class="card-text">Description de la carte 8.</p>
+          <p class="card-text">Repose-Poignet Réglable pour Bras</p>
         </div>
       </div>
     </div>
