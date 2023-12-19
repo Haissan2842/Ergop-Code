@@ -102,7 +102,7 @@
       <div class="card">
       <img src="<?php echo get_template_directory_uri() ?>/Images/Article du mois.jpg " class="card-img-top" alt="Image 1">
       <div class="card-body">
-          <p class="card-text">Description de la carte 1.</p>
+          <p class="card-text">Siège Bloon Original</p>
         </div>
       </div>
     </div>

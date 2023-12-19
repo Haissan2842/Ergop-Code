@@ -39,34 +39,34 @@
             <!-- Première carte imbriquée -->
             <div class="col-md-5">
               <div class="card mb-3 background_color_footer">
-                <img src="<?php echo get_template_directory_uri() ?>/Images/Logo X.png" width="50%">
+                <img src="<?php echo get_template_directory_uri() ?>/Images/Logo X.png" class="customcard" width="50%">
               </div>
             </div>
 
             <!-- Deuxième carte imbriquée -->
             <div class="col-md-5">
               <div class="card mb-3 background_color_footer">
-                <img src="<?php echo get_template_directory_uri() ?>/Images/Logo instagram.png" width="50%">
+                <img src="<?php echo get_template_directory_uri() ?>/Images/Logo instagram.png" class="customcard" width="50%">
               </div>
             </div>
 
             <!-- Troisième carte imbriquée -->
             <div class="col-md-5">
               <div class="card mb-3 background_color_footer">
-                <img src="<?php echo get_template_directory_uri() ?>/Images/Logo Facebook.png" width="50%">
+                <img src="<?php echo get_template_directory_uri() ?>/Images/Logo Facebook.png" class="customcard" width="50%">
               </div>
             </div>
 
             <!-- Quatrième carte imbriquée -->
             <div class="col-md-5">
               <div class="card mb-3 background_color_footer">
-                <img src="<?php echo get_template_directory_uri() ?>/Images/Logo linkedin.png" class="float-left" width="50%">
+                <img src="<?php echo get_template_directory_uri() ?>/Images/Logo linkedin.png" class="customcard" width="50%">
               </div>
             </div>
           </div>
 
           <br><br><br><br>
-          <button class="btn btn-outline-light btn-block"><a href="<?php echo home_url() ?>/index.php/contact">Contactez-nous</a></button>
+          <button class="btn btn-outline-light btn-block"><a href="<?php echo home_url() ?>/index.php/contact ">Contactez-nous</a></button>
         </div>
       </div>
     </div>
