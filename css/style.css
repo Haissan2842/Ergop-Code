@@ -458,7 +458,8 @@ h3 {
 /* Bump */
 
 .bump {
-  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);}
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
 
 .bump:hover {
   transform: translateY(-5px);
