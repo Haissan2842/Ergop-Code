@@ -1,28 +1,30 @@
 <footer>
 
+<br><br><br>
+
 <div class="container mt-4">
   <div class="row">
     <!-- Carte de Gauche -->
     <div class="col-md-6">
       <div class="card background_color_footer customcard color_white">
         <div class="card-body">
-        <u><h2>Mentions Légales :</h2>
-            <br>
-            <br>
-            <a href="<?php echo home_url() ?>/index.php/conditions_generales"><h4>Conditions Générales</h4></a>
-            <br>
-            <a href="<?php echo home_url() ?>/index.php/vie_privee"><h4>Vie Privée</h4></a>
-            <br>
-            <a href="<?php echo home_url() ?>/index.php/droit_de_retractation"><h4>Droit de Rétractation</h4></a>
-            <br>
-            <br>
-              <p>
-                Ergop SRL : <br>
-                Mail :</u> ergopsrl@info.be <br>
-                <u> BCE : </u> 0779618003 <br>
-                <u> Siège social :</u> Avenue Brugmann n°499 <br>
-                <u> TVA :</u> BE0779.618.001
-              </p> 
+          <u><h2>Mentions Légales :</h2></u>
+          <br>
+          <br>
+          <a href="<?php echo home_url() ?>/index.php/conditions_generales"><h4>Conditions Générales</h4></a>
+          <br>
+          <a href="<?php echo home_url() ?>/index.php/vie_privee"><h4>Vie Privée</h4></a>
+          <br>
+          <a href="<?php echo home_url() ?>/index.php/droit_de_retractation"><h4>Droit de Rétractation</h4></a>
+          <br>
+          <br>
+          <p>
+            Ergop SRL : <br>
+            Mail :</u> ergopsrl@info.be <br>
+            <u> BCE : </u> 0779618003 <br>
+            <u> Siège social :</u> Avenue Brugmann n°499 <br>
+            <u> TVA :</u> BE0779.618.001
+          </p>
         </div>
       </div>
     </div>
@@ -31,16 +33,46 @@
     <div class="col-md-6">
       <div class="card background_color_footer customcard">
         <div class="card-body">
-          <!-- Div Vide -->
-          <div style="height: 100px; border: 1px solid #ddd; margin-bottom: 15px;"></div>
+
+          <!-- Row pour les sous-cartes -->
+          <div class="row">
+            <!-- Première carte imbriquée -->
+            <div class="col-md-3">
+              <div class="card mb-3 background_color_footer">
+                <img src="<?php echo get_template_directory_uri() ?>/Images/Logo X.png">
+              </div>
+            </div>
+
+            <!-- Deuxième carte imbriquée -->
+            <div class="col-md-3">
+              <div class="card mb-3 background_color_footer">
+                <img src="<?php echo get_template_directory_uri() ?>/Images/Logo instagram.png">
+              </div>
+            </div>
+
+            <!-- Troisième carte imbriquée -->
+            <div class="col-md-3">
+              <div class="card mb-3 background_color_footer">
+                <img src="<?php echo get_template_directory_uri() ?>/Images/Logo Facebook.png">
+              </div>
+            </div>
+
+            <!-- Quatrième carte imbriquée -->
+            <div class="col-md-3">
+              <div class="card mb-3 background_color_footer">
+                <img src="<?php echo get_template_directory_uri() ?>/Images/Logo Facebook.png">
+              </div>
+            </div>
+          </div>
 
           <!-- Bouton Outline Blanc -->
-          <button class="btn btn-outline-light btn-block">Mon Bouton</button>
+          <button class="btn btn-outline-light btn-block">Contactez-nous</button>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 
 
 
