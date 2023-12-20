@@ -271,12 +271,15 @@ h3 {
   background-color: #45a049;
 }
 
+.sectionshadow {
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sectionshadowreversed {
+  box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.1);
+}
 
 /* ID */
-
-#section1 {
-
-}
 
 #section2 {
     text-align: center;
@@ -284,22 +287,13 @@ h3 {
 
 #section3 {
     background-color: #C8CDF8;
+    
 }
 
 #section4 {
     background-color: #C8CDF8;
 }
 
-#section5 {
-    
-}
-
-#searchsession1 {
-
-}
-
-#searchsession2 {
-}
 
 #sectionachat input {
   border-radius: 0; /* Coins carrés */

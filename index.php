@@ -4,6 +4,7 @@
 
 <body>
     <section id="section1">
+
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -22,11 +23,11 @@
       </div>
       <!-- Ajouter d'autres slides ici -->
     </div>
-  </div>    </section>
-    <section id="section2">
-      <br><br><br>
+  </div>
+</section>
 
-
+<section id="section2">
+<br><br><br>
       <div class="container col-9 col-lg-7 text-center mt-5 ">
         <div class="card card_cestquoiergop card_up_gray">
             <br>
@@ -41,7 +42,7 @@
 
       <br><br><br><br><br><br>
     </section>
-    <section id="section3">
+    <section id="section3" class="sectionshadowreversed">
 
       <br><br><br><br>
       <div class="container mt-5">
@@ -75,9 +76,10 @@
           </div>
         </div>
       </div>
+</div>
       <br><br><br><br><br><br><br><br><br>
     </section>
-    <section id="section4">
+    <section id="section4" class="sectionshadow">
 
     <div class="container">
   <div class="row">
