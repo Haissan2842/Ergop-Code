@@ -23,7 +23,13 @@ h5 {
   font-weight: 900;
   font-style: normal;
 }
-
+/*
+@media only screen and (max-width: 767px) {
+  h5 {
+    height: 30px;
+  }
+}
+*/
 h6 {
   font-size: 30px;
   font-family: "Gill Sans MT", sans-serif;
@@ -90,33 +96,6 @@ footer {
   text-align-last: center !important;
 }
 
-
-.carousel {
-  height: 100vh;
-}
-
-/* Centrer le texte verticalement */
-.carousel-caption {
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-/* Réduire la taille du texte sur les petits écrans */
-@media (max-width: 576px) {
-  .carousel-caption h5 {
-    font-size: 1.5rem;
-  }
-
-  .carousel-caption p {
-    font-size: 1rem;
-  }
-
-  /* Ajuster la hauteur des images pour les écrans mobiles */
-  .carousel-inner img {
-    height: 50vh; /* Vous pouvez ajuster cette valeur en fonction de vos besoins */
-    object-fit: cover; /* Ajuster la manière dont l'image est redimensionnée pour remplir la boîte */
-  }
-}
 
 
 .imagedebut {
@@ -277,6 +256,13 @@ h3 {
 
 .sectionshadowreversed {
   box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bouton_rectangle {
+  background-color: #000; /* Couleur du rectangle noir */
+  color: #fff; /* Couleur du texte */
+  padding: 14px;
+  text-align: center;
 }
 
 /* ID */
@@ -486,7 +472,34 @@ h3 {
   text-align: center;
 }
 
-/
+/* Caroussel */
+
+.carousel {
+  height: 100vh;
+}
+
+/* Centrer le texte verticalement */
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Réduire la taille du texte sur les petits écrans */
+@media (max-width: 576px) {
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  /* Ajuster la hauteur des images pour les écrans mobiles */
+  .carousel-inner img {
+    height: 90vh; /* Vous pouvez ajuster cette valeur en fonction de vos besoins */
+    object-fit: cover; /* Ajuster la manière dont l'image est redimensionnée pour remplir la boîte */
+  }
+}
 
 
 /* Animations */

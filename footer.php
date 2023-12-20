@@ -23,7 +23,8 @@
             Mail :</u> ergopsrl@info.be <br>
             <u> BCE : </u> 0779618003 <br>
             <u> Siège social :</u> Avenue Brugmann n°499 <br>
-            <u> TVA :</u> BE0779.618.001
+            <u> TVA :</u> BE0779.618.001 <br>
+            Copyright - 2023 Ergop, tous droits réservés
           </p>
         </div>
       </div>
@@ -108,6 +109,6 @@
 -->
       <?php wp_footer(); ?>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> 
 </body>
 </html>
