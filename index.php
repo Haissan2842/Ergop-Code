@@ -8,8 +8,8 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="<?php echo get_template_directory_uri() ?>/Images/happy_people_2.jpg" class="d-block w-100" alt="Image 1">
-        <div class="carousel-caption d-md-none">
-          <h5>ERGONOMIC<br>SHOP<br>OPTIONS</h5>
+        <div class="carousel-caption">
+          <h5 class="pjustifylastlineleft">ERGONOMIC<br>SHOP<br>OPTIONS</h5>
         </div>
       </div>
 

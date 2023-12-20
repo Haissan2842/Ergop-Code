@@ -481,18 +481,19 @@ h3 {
 /* Centrer le texte verticalement */
 .carousel-caption {
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-10%);
 }
 
 /* Réduire la taille du texte sur les petits écrans */
 @media (max-width: 576px) {
   .carousel-caption h5 {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 
-  .carousel-caption p {
-    font-size: 1rem;
-  }
+  @media (max-width: 576px) {
+    h5 {
+      font-size: 3rem;
+    }
 
   /* Ajuster la hauteur des images pour les écrans mobiles */
   .carousel-inner img {
