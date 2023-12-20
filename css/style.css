@@ -487,13 +487,9 @@ h3 {
 /* Réduire la taille du texte sur les petits écrans */
 @media (max-width: 576px) {
   .carousel-caption h5 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
-  @media (max-width: 576px) {
-    h5 {
-      font-size: 3rem;
-    }
 
   /* Ajuster la hauteur des images pour les écrans mobiles */
   .carousel-inner img {
@@ -502,7 +498,11 @@ h3 {
   }
 }
 
-
+@media (max-width: 576px) {
+  h5 {
+    font-size: 2rem;
+  }
+}
 /* Animations */
 
 /* Zoom */

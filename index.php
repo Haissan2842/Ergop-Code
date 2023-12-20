@@ -112,75 +112,91 @@
   <div class="row">
     <!-- Première rangée de cartes -->
     <div class="col-6 col-lg-3 mb-4">
+    <a href="<?php echo get_home_url() ?>/index.php/product/bureau-assis-debout-electrique-q8-avance">
       <div class="card customcard hopshadow">
       <img src="<?php echo get_template_directory_uri() ?>/Images/Image 20.jpg" class="card-img-top" alt="Image 1">
       <div class="card-body">
           <p class="card-text pcenter">Bureau Assis Debout Électrique<br>849.99€</p>
         </div>
       </div>
+      </a>
     </div>
     <div class="col-6 col-lg-3 mb-4">
+    <a href="<?php echo get_home_url() ?>/index.php/product/bureau-informatique-griso">
       <div class="card customcard hopshadow">
         <img src="<?php echo get_template_directory_uri() ?>/Images/Image 17.jpg" class="card-img-top" alt="Image 2">
         <div class="card-body">
           <p class="card-text pcenter">Bureau informatique GRISO<br>189.99€</p>
         </div>
       </div>
+      </a>
     </div>
 
     <div class="col-6 col-lg-3 mb-4">
+    <a href="<?php echo get_home_url() ?>/index.php/product/lunettes-esport-proxima">
       <div class="card customcard hopshadow">
         <img src="<?php echo get_template_directory_uri() ?>/Images/lunette-gaming-proxima-horus-x-blanche.png" class="card-img-top" alt="Image 3">
         <div class="card-body">
           <p class="card-text pcenter">Lunettes Esport ProXima<br>67.98€</p>
         </div>
       </div>
+      </a>
     </div>
     <div class="col-6 col-lg-3 mb-4">
+    <a href="<?php echo get_home_url() ?>/index.php/product/chaise-de-bureau-fauteuil-ergonomique-avec-repose-pieds">
       <div class="card customcard hopshadow">
         <img src="<?php echo get_template_directory_uri() ?>/Images/chaiseeerg.jpg" class="card-img-top" alt="Image 4">
         <div class="card-body customcard">
           <p class="card-text pcenter">Chaise de Bureau Repose-Pieds<br>249.99€</p>
         </div>
       </div>
+      </a>
     </div>    
   </div>
   <div class="row">
     <!-- Deuxième rangée de cartes -->
     <div class="col-6 col-lg-3 mb-4">
+    <a href="<?php echo get_home_url() ?>/index.php/product/gym-ball-resistant-taille">
       <div class="card customcard hopshadow">
         <img src="<?php echo get_template_directory_uri() ?>/Images/Image 25.png" class="card-img-top" alt="Image 5">
         <div class="card-body">
           <p class="card-text pcenter">Gym Ball Résistant<br>30€</p>
         </div>
       </div>
+      </a>
     </div>
 
     <div class="col-6 col-lg-3 mb-4">
+    <a href="<?php echo get_home_url() ?>/index.php/product/support-pour-ordinateurs-portables-r-go-riser">
       <div class="card customcard hopshadow">
         <img src="<?php echo get_template_directory_uri() ?>/Images/Article populaire 1.png" class="card-img-top" alt="Image 6">
         <div class="card-body">
           <p class="card-text pcenter">Support Pour Ordinateurs<br>84.98€</p>
         </div>
       </div>
+      </a>
     </div>
 
     <div class="col-6 col-lg-3 mb-4">
+    <a href="<?php echo get_home_url() ?>/index.php/product/secretlab-magnus-pro">
       <div class="card customcard hopshadow">
         <img src="<?php echo get_template_directory_uri() ?>/Images/Image 5.jpg" class="card-img-top" alt="Image 7">
         <div class="card-body">
           <p class="card-text pcenter">Secretlab MAGNUS Pro<br>1050.40€</p>
         </div>
+        </div>
+        </a>
       </div>
-    </div>
 
     <div class="col-6 col-lg-3 mb-4">
-      <div class="card customcard hopshadow">
-        <img src="<?php echo get_template_directory_uri() ?>/Images/Image 21.png" class="card-img-top" alt="Image 8">
-        <div class="card-body">
-          <p class="card-text pcenter">Repose-Poignet Réglable<br>29.99€</p>
+      <a href="<?php echo get_home_url() ?>/index.php/product/repose-poignet-reglable-pour-bras">
+        <div class="card customcard hopshadow">
+          <img src="<?php echo get_template_directory_uri() ?>/Images/Image 21.png" class="card-img-top" alt="Image 8">
+          <div class="card-body">
+            <p class="card-text pcenter">Repose-Poignet Réglable<br>29.99€</p>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </div>
