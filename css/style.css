@@ -46,8 +46,6 @@ h3 {
 
 p {
     font-family: "gimlet-sans-variable", sans-serif;
-    text-align: justify; 
-    text-align-last: left;
 }
 
 p2 {
@@ -77,6 +75,49 @@ footer {
 }
 
 /* Classes */
+
+.pjustifylastlineleft {
+    text-align: justify; 
+    text-align-last: left;
+}
+
+.pjustifylastlinecenter {
+  text-align: justify; 
+  text-align-last: center;
+}
+
+.pcenter {
+  text-align-last: center !important;
+}
+
+
+.carousel {
+  height: 100vh;
+}
+
+/* Centrer le texte verticalement */
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Réduire la taille du texte sur les petits écrans */
+@media (max-width: 576px) {
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  /* Ajuster la hauteur des images pour les écrans mobiles */
+  .carousel-inner img {
+    height: 50vh; /* Vous pouvez ajuster cette valeur en fonction de vos besoins */
+    object-fit: cover; /* Ajuster la manière dont l'image est redimensionnée pour remplir la boîte */
+  }
+}
+
 
 .imagedebut {
     display: flex;
@@ -477,6 +518,18 @@ h3 {
   transform: translateY(-5px)
 }
 
+/* Hop shadow */
+
+.hopshadow {
+  transition: transform 0.4s, box-shadow 0.2s ease-in-out;
+}
+
+.hopshadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
 /* Zop */
 
     /* Style de base pour l'élément */
@@ -491,6 +544,22 @@ h3 {
     .zop:hover {
       transform: scale(1.05); /* Ajustez la valeur selon vos préférences */
     }
+
+/* Card Up Gray */
+
+.card_up_gray {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.card_up_gray:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
 
 /* Souligement */
 
