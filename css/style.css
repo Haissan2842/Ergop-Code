@@ -106,21 +106,21 @@ footer {
 
 /**/
 
-.maClasse {
-  display: none; 
+.displayblockmb {
+  display: none !important; 
 }
 
 @media only screen and (max-width: 768px) {
-  .maClasse {
-    display: block;
+  .displayblockmb {
+    display: block !important;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .maClasse {
-    display: block; 
+  .displayblockmb {
+    display: block !important; 
 }
-
+}
 /* Classes */
 
 .pjustifylastlineleft {
