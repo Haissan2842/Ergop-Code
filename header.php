@@ -29,17 +29,17 @@
                 <a class="nav-link" href="<?php echo home_url() ?>/index.php/shop/">Bureautique</a>
               </li>
             </ul>
-            <!--
+<!--
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
-            -->
-            <a href="<?php echo home_url() ?>/index.php/shop/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone search.png" class="hop"></a>
+-->
+            <a href="<?php echo home_url() ?>/index.php/shop/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone search.png" class="hop displaynonemb"></a>
             <h1>&nbsp;&nbsp;</h1>
-            <a href="<?php echo home_url() ?>/index.php/compte_connection/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone compte.png" class="hop"></a>
+            <a href="<?php echo home_url() ?>/index.php/compte_connection/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone compte.png" class="hop displaynonemb"></a>
             <h1>&nbsp;&nbsp;</h1>
-            <a href="<?php echo home_url() ?>/index.php/cart/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone panier.png" class="hop"></a>
+            <a href="<?php echo home_url() ?>/index.php/cart/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone panier.png" class="hop displaynonemb"></a>
           </div>
         </div>
       </nav>
