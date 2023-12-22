@@ -16,13 +16,20 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
+
 h5 {
   font-size: 60px;
   font-family: "gill-sans-nova", sans-serif;
   font-weight: 900;
   font-style: normal;
 }
-
+/*
+@media only screen and (max-width: 767px) {
+  h5 {
+    height: 30px;
+  }
+}
+*/
 h6 {
   font-size: 30px;
   font-family: "Gill Sans MT", sans-serif;
@@ -45,8 +52,6 @@ h3 {
 
 p {
     font-family: "gimlet-sans-variable", sans-serif;
-    text-align: justify; 
-    text-align-last: left;
 }
 
 p2 {
@@ -75,14 +80,72 @@ footer {
     height: 700px;
 }
 
+@media only screen and (max-width: 768px) {
+  footer {
+    height: 1100px;
+  }
+}
+
+/* Navbar media querry */
+
+.displaynonemb {
+
+}
+
+@media only screen and (max-width: 768px) {
+  .displaynonemb {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .displaynonemb {
+    display: none; 
+  }
+}
+
+/**/
+
+.maClasse {
+  display: none; 
+}
+
+@media only screen and (max-width: 768px) {
+  .maClasse {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .maClasse {
+    display: block; 
+}
+
 /* Classes */
+
+.pjustifylastlineleft {
+    text-align: justify; 
+    text-align-last: left;
+}
+
+.pjustifylastlinecenter {
+  text-align: justify; 
+  text-align-last: center;
+}
+
+.pcenter {
+  text-align-last: center !important;
+}
+
+
 
 .imagedebut {
     display: flex;
     width: 100%;
 }
   
-.border {
+.border_footer {
+  border-color: #2D2D2D;
 }
 
 .card {
@@ -99,9 +162,12 @@ footer {
 
 .customcard {
   border-radius: 0%;
-  border: none;
+  border: none !important ;
 }
 
+.border_radius_30 {
+  border-radius: 30%;
+}
 
 .color_white {
   color: white;
@@ -229,12 +295,22 @@ h3 {
   background-color: #45a049;
 }
 
+.sectionshadow {
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sectionshadowreversed {
+  box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bouton_rectangle {
+  background-color: #000; /* Couleur du rectangle noir */
+  color: #fff; /* Couleur du texte */
+  padding: 14px;
+  text-align: center;
+}
 
 /* ID */
-
-#section1 {
-
-}
 
 #section2 {
     text-align: center;
@@ -242,22 +318,13 @@ h3 {
 
 #section3 {
     background-color: #C8CDF8;
+    
 }
 
 #section4 {
     background-color: #C8CDF8;
 }
 
-#section5 {
-    
-}
-
-#searchsession1 {
-
-}
-
-#searchsession2 {
-}
 
 #sectionachat input {
   border-radius: 0; /* Coins carrés */
@@ -450,21 +517,102 @@ h3 {
   text-align: center;
 }
 
-/
+/* Caroussel */
+
+.carousel {
+  height: 100vh;
+}
+
+/* Centrer le texte verticalement */
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-10%);
+}
+
+/* Réduire la taille du texte sur les petits écrans */
+@media (max-width: 576px) {
+  .carousel-caption h5 {
+    font-size: 2rem;
+  }
 
 
+  /* Ajuster la hauteur des images pour les écrans mobiles */
+  .carousel-inner img {
+    height: 90vh; /* Vous pouvez ajuster cette valeur en fonction de vos besoins */
+    object-fit: cover; /* Ajuster la manière dont l'image est redimensionnée pour remplir la boîte */
+  }
+}
+
+@media (max-width: 576px) {
+  h5 {
+    font-size: 2rem;
+  }
+}
 /* Animations */
 
-/* Bump */
+/* Zoom */
 
-.bump {
-  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+.zoom-box {
+  transition: transform 0.3s ease-in-out;
 }
 
-.bump:hover {
+.zoom-box:hover {
+  transform: scale(1.05)
+}
+
+/* Hop */
+
+
+.hop {
+  transition: transform 0.3s ease-in-out;
+}
+
+.hop:hover {
+  transform: translateY(-5px)
+}
+
+/* Hop shadow */
+
+.hopshadow {
+  transition: transform 0.4s, box-shadow 0.2s ease-in-out;
+}
+
+.hopshadow:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+
+/* Zop */
+
+    /* Style de base pour l'élément */
+    .zop {
+      display: inline-block;
+      overflow: hidden;
+      position: relative;
+      transition: transform 0.3s ease;
+    }
+
+    /* Effet de zoom au survol */
+    .zop:hover {
+      transform: scale(1.05); /* Ajustez la valeur selon vos préférences */
+    }
+
+/* Card Up Gray */
+
+.card_up_gray {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.card_up_gray:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
 
 /* Souligement */
 

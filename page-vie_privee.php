@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
   <div class="container">
+    <div class="pjustifylastlineleft">
     <br><br>
     <h1>Vie Privée</h1>
     <br>
@@ -225,6 +226,7 @@
     <p>Pour toute question relative à la protection de ses données à caractère personnel ou si vous pensez que votre vie privée n’est pas respectée par Ergop, vous pouvez contacter Ergop ergopsrl@info.com.
     
     <p>Par ailleurs, vous avez la possibilité d’introduire une réclamation auprès de l’Autorité de protection des données (contact@apd-gba.be).   
+    </div>
   </div>
 <br><br><br><br><br>
 

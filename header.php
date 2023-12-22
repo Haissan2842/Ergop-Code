@@ -11,7 +11,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid container" >
           <a class="navbar-brand" href="<?php echo home_url() ?>"> <img src="<?php echo get_template_directory_uri() ?>/Images/ERGOP - logo pc.png"> </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -29,14 +29,22 @@
                 <a class="nav-link" href="<?php echo home_url() ?>/index.php/shop/">Bureautique</a>
               </li>
             </ul>
-            <a href="<?php echo home_url() ?>/index.php/shop/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone search.png" class="bump"></a>
+<!--
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+-->
+            <a href="<?php echo home_url() ?>/index.php/shop/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone search.png" class="hop displaynonemb"></a>
             <h1>&nbsp;&nbsp;</h1>
-            <a href="<?php echo home_url() ?>/index.php/compte_connection/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone compte.png" class="bump"></a>
+            <a href="<?php echo home_url() ?>/index.php/compte_connection/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone compte.png" class="hop displaynonemb"></a>
             <h1>&nbsp;&nbsp;</h1>
-            <a href="<?php echo home_url() ?>/index.php/cart/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone panier.png" class="bump"></a>
+            <a href="<?php echo home_url() ?>/index.php/cart/"><img src="<?php echo get_template_directory_uri() ?>/Images/Icone panier.png" class="hop displaynonemb"></a>
           </div>
         </div>
       </nav>
 
+
+      
 </head>
 <body>
