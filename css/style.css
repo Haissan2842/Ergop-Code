@@ -80,6 +80,12 @@ footer {
     height: 700px;
 }
 
+@media only screen and (max-width: 768px) {
+  footer {
+    height: 1100px;
+  }
+}
+
 /* Classes */
 
 .pjustifylastlineleft {
@@ -103,7 +109,8 @@ footer {
     width: 100%;
 }
   
-.border {
+.border_footer {
+  border-color: #2D2D2D;
 }
 
 .card {
@@ -120,9 +127,12 @@ footer {
 
 .customcard {
   border-radius: 0%;
-  border: none;
+  border: none !important ;
 }
 
+.border_radius_30 {
+  border-radius: 30%;
+}
 
 .color_white {
   color: white;
